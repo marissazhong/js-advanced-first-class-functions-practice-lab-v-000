@@ -15,7 +15,7 @@ function driversByRevenue(driver) {
   let sorted_driver = driver.slice(0);
   sorted_driver.sort(function(a, b) {
     return a.revenue - b.revenue;
-  })
+  });
   return sorted_driver;
 }
 
@@ -23,7 +23,7 @@ function driversByName(driver) {
   let sorted_driver = driver.slice(0);
   sorted_driver.sort(function(a, b) {
     return a.localeCompare(b);
-  })
+  });
   return sorted_driver;
 }
 
