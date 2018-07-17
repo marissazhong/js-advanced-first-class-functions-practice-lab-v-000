@@ -43,3 +43,4 @@ const drivers = [
   { name: 'Annette', hometown: 'Los Angeles', revenue: 6000 },
   { name: 'Bobby',   hometown: 'Tampa Bay',   revenue: 5000 }
 ];
+console.log(totalRevenue(drivers));
