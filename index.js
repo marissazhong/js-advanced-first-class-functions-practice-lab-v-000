@@ -31,7 +31,7 @@ function totalRevenue(driver) {
   const reduced = driver.reduce(function(a,b) {
     return {revenue: a.revenue + b.revenue};
   })
-  return reduced.revenue
+  return reduced.revenue;
 }
 
 function averageRevenue(driver) {
@@ -45,4 +45,4 @@ const drivers = [
   { name: 'Annette', hometown: 'Los Angeles', revenue: 6000 },
   { name: 'Bobby',   hometown: 'Tampa Bay',   revenue: 5000 }
 ];
-console.log(totalRevenue(drivers));
+console.log(averageRevenue(drivers));
