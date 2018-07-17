@@ -22,7 +22,7 @@ function driversByRevenue(driver) {
 function driversByName(driver) {
   let sorted_driver = driver.slice(0);
   sorted_driver.sort(function(a, b) {
-    return a.localeCompare(b);
+    return a.name.localeCompare(b.name);
   });
   return sorted_driver;
 }
