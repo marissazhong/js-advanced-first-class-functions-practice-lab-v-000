@@ -28,7 +28,7 @@ function driversByName(driver) {
 }
 
 function totalRevenue(driver) {
-
+  
 }
 
 function averageRevenue(driver) {
