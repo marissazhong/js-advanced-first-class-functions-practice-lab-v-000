@@ -28,8 +28,7 @@ function driversByName(driver) {
 }
 
 function totalRevenue(driver) {
-  driver.reduce(function(a,b) {
-    console.log(a,b);
+  const reduced = driver.reduce(function(a,b) {
     return {revenue: a.revenue + b.revenue};
   })
 }
